@@ -1,0 +1,155 @@
+Program1: To add two numbers 
+
+ 
+
+<html> 
+
+<body> 
+
+   <script> 
+
+             a= 10; 
+
+   b=5; 
+
+   c=a+b; 
+
+            alert("c is ="+ c);  
+
+ </script> 
+
+</body> 
+
+ </html> 
+
+ 
+
+Program2: To subtract two numbers 
+
+ 
+
+<html> 
+
+<body> 
+
+   <script> 
+
+             a= 20; 
+
+   b=5; 
+
+   c=a-b; 
+
+            alert("c is ="+ c);  
+
+ </script> 
+
+</body> 
+
+ </html> 
+
+ 
+
+Program3: To multiply two numbers 
+
+ 
+
+<html> 
+
+<body> 
+
+   <script> 
+
+             a= 10; 
+
+   b=5; 
+
+   c=a*b; 
+
+            alert("c is ="+ c);  
+
+ </script> 
+
+</body> 
+
+ </html> 
+
+ 
+
+Program4: To divide two number 
+
+ 
+
+<html> 
+
+<body> 
+
+   <script> 
+
+             a= 10; 
+
+   b=5; 
+
+   c=a/b; 
+
+            alert("c is ="+ c);  
+
+ </script> 
+
+</body> 
+
+ </html> 
+
+ 
+
+Program5: To increment 
+
+ 
+
+<html> 
+
+<body> 
+
+   <script> 
+
+            var x = 10; 
+
+ x++; 
+
+ var z=x; 
+
+           document.write(z); 
+
+ </script> 
+
+</body> 
+
+ </html> 
+
+ 
+
+Program6: to decrement 
+
+ 
+
+<html> 
+
+<body> 
+
+   <script> 
+
+            var x = 10; 
+
+ x--; 
+
+ var z=x; 
+
+           document.write(z); 
+
+ </script> 
+
+</body> 
+
+ </html> 
+
+ 

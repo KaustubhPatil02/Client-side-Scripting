@@ -1,0 +1,32 @@
+<html>
+<body>
+<div id = "panel"></div> 
+  <script>
+    var panel,flag;
+    panel = document.getElementById ("panel") ;
+    flag = true;
+    panel.innerHTML =" Move the mouse ...";
+    document.onmousemove = mousemove;
+    panel.onmouseover = mouseover;
+    panel.onmouseout = mouseout;
+    var panel, flag;
+    function mousemove (e)
+     {
+       If(flag)
+        {
+         panel.innerHTML= " Mouse is at X: " + e.x + ", y: " + e.y;
+        }
+     }
+    function mouseover ()
+     {
+      flag=false;
+      panel.innerHTML = "Mouse is Over";
+     }
+    function mouseout ()
+    {
+     flag = true; 
+    }
+  </script>
+</body>
+</html>
+

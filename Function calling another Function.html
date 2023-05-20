@@ -1,0 +1,31 @@
+<html> 
+<head> <title> Function calling another Function  </title> 
+<script type="text/javascript">
+function funz(){
+ var userId;
+ var password;
+ userId=prompt('Enter user Id',' ');
+ valid=validateLogon(userId,password);
+ if(valid === true){
+  alert('Validate Logon');
+ }else{
+  alert('Invalidate Logon');
+ }
+}
+ function validateLogon(id,pwd)
+ {
+  var ReturnValue;
+  if(id ==='111' && pwd ==='aaa')
+  {
+  ReturnValue=true;
+  }
+  else
+  {
+   ReturnValue=false;
+  }
+  return ReturnValue;
+ }
+ </script> 
+</head> 
+<body onload="funz()">  </body>
+</html>

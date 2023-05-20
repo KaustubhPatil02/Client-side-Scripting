@@ -1,0 +1,427 @@
+If statement 
+
+ <html> 
+
+<body>    
+
+      <script > 
+
+            var age = 21; 
+
+            if( age > 18 ) { 
+
+               document.write("<b>You have been Approved</b>"); 
+
+            } else { 
+
+               document.write("<b>Better try next year</b>"); 
+
+            } 
+
+      </script>     
+
+   </body> 
+
+</html> 
+
+ 
+
+If else if 
+
+<html> 
+
+<head> 
+
+    <script type="text/javascript"> 
+
+        var one = prompt("Enter the first number"); 
+
+        var two = prompt("Enter the second number"); 
+
+        one = parseInt(one); 
+
+        two = parseInt(two); 
+
+        if (one == two) 
+
+            document.write(one + " is equal to " + two + "."); 
+
+        else if (one<two) 
+
+            document.write(one + " is less than " + two + "."); 
+
+        else 
+
+            document.write(one + " is greater than " + two + "."); 
+
+    </script> 
+
+</head> 
+
+<body> 
+
+</body> 
+
+</html> 
+
+Switch cases 
+
+<html> 
+
+<head> 
+
+<title>Switch case </title> 
+
+</head> 
+
+<body> 
+
+<center><h2>Switch case </h2></center> 
+
+<script> 
+
+d = new Date(); 
+
+ch = d.getMonth(); 
+
+switch(ch) 
+
+{ 
+
+  case 0:  document.write("Jan"); 
+
+  break; 
+
+  case 1:  document.write("Feb"); 
+
+  break; 
+
+  case 2:  document.write("Mar"); 
+
+  break; 
+
+  case 3:  document.write("April"); 
+
+  break; 
+
+  case 4:  document.write("May"); 
+
+  break; 
+
+  case 5:  document.write("June"); 
+
+  break; 
+
+  case 6:  document.write("July"); 
+
+  break; 
+
+  case 7:  document.write("Aug"); 
+
+  break; 
+
+  case 8:  document.write("Sept"); 
+
+  break; 
+
+  case 9:  document.write("Oct"); 
+
+  break; 
+
+  case 10:  document.write("Nov"); 
+
+  break; 
+
+  case 11:  document.write("Dec"); 
+
+  break; 
+
+} 
+
+</script> 
+
+</body> 
+
+</html> 
+
+ 
+
+For Loop 
+
+<html> 
+
+<head> 
+
+<title>For loop </title> 
+
+</head> 
+
+<body> 
+
+<center><h2> For Loop </h2></center> 
+
+<script> 
+
+var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"]; 
+
+ var i; 
+
+for ( i = 0; i < cars.length; i++ ) 
+
+{ 
+
+  document.write("<br>Name of the Car is : " +cars[i] ); 
+
+ } 
+
+</script> 
+
+</body> 
+
+</html> 
+
+ 
+
+While Loop 
+
+<html> 
+
+<head> 
+
+<title> While Loop </title> 
+
+</head> 
+
+<body> 
+
+<center> 
+
+<h2> While Loop </h2> 
+
+</center> 
+
+<script> 
+
+var i = 0; 
+
+while(i<10) 
+
+{ 
+
+  document.write("<br>The number is : " +i); 
+
+  i+=1; 
+
+ } 
+
+</script> 
+
+</body>  
+
+</html> 
+
+ 
+
+Do While Loop 
+
+<html> 
+
+<head> 
+
+<title> Do While Loop </title> 
+
+</head> 
+
+<body> 
+
+<center> 
+
+<h2> Do While Loop </h2> 
+
+</center> 
+
+<script> 
+
+var i = 0; 
+
+do{ 
+
+document.write("<br> The number is : " +i ); 
+
+i+=1; 
+
+} 
+
+while( i < 10 ) 
+
+</script> 
+
+</body> 
+
+</html> 
+
+ 
+
+For Loop  
+
+<html> 
+
+<head> 
+
+<title>For loop </title> 
+
+</head> 
+
+<body> 
+
+<center><h2> For Loop </h2></center> 
+
+<script> 
+
+var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"]; 
+
+ var i; 
+
+for ( i = 0; i < cars.length; i++ ) 
+
+{ 
+
+  document.write("<br>Name of the Car is : " +cars[i] ); 
+
+ } 
+
+</script> 
+
+</body> 
+
+</html> 
+
+ 
+
+Break Statement 
+
+<html> 
+
+<head> 
+
+<title>Break Statement</title> 
+
+</head> 
+
+<body> 
+
+<center><h2>Break Statement</center></h2> 
+
+<script> 
+
+for ( i = 10; i >= 0; i -- ) 
+
+{ 
+
+  if ( i == 5 ) 
+
+  { 
+
+    break; 
+
+   } 
+
+} 
+
+document.write("My lucky number is : " +i ); 
+
+</script> 
+
+</body> 
+
+</html>   
+
+ 
+
+9.if else ladder 
+
+ 
+
+<HTML>  
+
+ 
+
+<HEAD>  
+
+ 
+
+<TITLE> IF STATEMENT </TITLE>  
+
+ 
+
+</HEAD>  
+
+ 
+
+<BODY>  
+
+ 
+
+<CENTER><H2> IF else ladder <H2></CENTER>  
+
+ 
+
+<SCRIPT>  
+
+ 
+
+var marks = 35;  
+
+ 
+
+if(marks < 35)  
+
+ 
+
+{  
+
+ 
+
+document.write("YOU FAILED DEAR BETTER LUCK NEXT TIME HAHAHAHA....");  
+
+ 
+
+} else if(marks >= 35 && marks < 60){  
+
+ 
+
+document.write("YOU PASSED THIS YEAR UNFORTUNATELY...... ");  
+
+ 
+
+}else if(marks >60 && marks < 80){  
+
+ 
+
+document.write("YOU PASSED THIS YEAR WITH FIRST YEAR.....LOL ");  
+
+ 
+
+}else if(marks >80 && marks < 100){  
+
+ 
+
+document.write("YOU PASSED THIS YEAR WITH DISTINCTION HOORAY...... ");  
+
+ 
+
+}  
+
+ 
+
+</SCRIPT>  
+
+ 
+
+</BODY>  
+
+ 
+
+</HTML> 
+
+ 

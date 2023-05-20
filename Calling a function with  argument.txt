@@ -1,0 +1,18 @@
+<html> 
+ <head>
+ <title> Calling a function with Arguments </title>
+ <body> 
+  <script type="text/javascript"> 
+	function show(x,y)
+	{
+	 result =x+y;
+	 document.write( "Addition is:" + result); 
+	}
+   </script>
+ </head> 
+<body>
+	<script type="text/javascript">
+	 show(10.2);
+	</script>
+</body> 
+</html> 

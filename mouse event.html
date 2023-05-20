@@ -1,0 +1,35 @@
+<html>
+<body>
+<div id="panel"></div>
+      <script>
+            function clickResponse()
+            {
+			  this.innerHTML+=  "click detected<hr>";
+			}			
+			function doubleclickResponse()
+			{
+			  this.innerHTML+=  "<br>Double-click detected<br>";
+			} 
+			function mousedownResponse()
+			{
+			  this.innerHTML+=  "<br>Mouse button down<br>";
+			}
+			function mouseupResponse()
+			{
+			  this.innerHTML+=  "<br>Mouse button up <br>";
+			}
+			function init()
+			{
+			  var panel = document.getElementById( "panel") ;
+			  panel.innerHTML = "Click Here &gt;<br>";
+			  panel.onclick = clickResponse ;
+			  panel.onblclick = doubleclickResponse ;
+			  panel.onmouseup = mouseupResponse ;
+			  panel.onmousedown = mousedownResponse ;
+			}
+	document.addEventListener("DOMContentLoaded", init,  false);
+	  </script>
+
+       
+</body>
+</html>	
